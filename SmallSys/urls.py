@@ -20,6 +20,5 @@ from django.urls import include
 
 
 urlpatterns = [
-
-    path('/', include('Appo.urls')),
+    path('home/', include('Appointments.urls')),
 ]
